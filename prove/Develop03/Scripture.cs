@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 class Scripture {
   private Reference _reference;
-  private string _text;
   public Word _word = new Word();
 
   public void SetReference(Reference reference) {
@@ -22,6 +21,6 @@ class Scripture {
         }
       }
     }
-    return string.Join( " ", newText);
+    return string.Join(" ", newText);
   }
 }
