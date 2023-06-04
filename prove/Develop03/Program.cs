@@ -22,7 +22,6 @@ class Program {
       string answ = Console.ReadLine();
       Console.Write("\n");
       if (answ == "no") {
-
         myScripture.SetReference(new Reference(bookName, chapt, verse));
         txt = myScripture.GetReference().GetVerse();
       }
